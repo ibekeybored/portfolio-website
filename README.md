@@ -1,1 +1,1 @@
-Files for my personal portfolio website!
+Files and code for my personal portfolio website!
