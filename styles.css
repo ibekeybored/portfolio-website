@@ -42,22 +42,10 @@ img {
     margin-left: 25px;
 }
 
-.intro_container svg {
-    height: 500px;
-    width: 500px;
-}
-
-.drawing {
-    stroke-dasharray: 500;
-    animation: 3s fillSvg linear;
-}
-
-@keyframes fillSvg {
-    0% {
-        stroke-dashoffset: 500;
-    }
-    100% {
+@keyframes drawStroke {
+    to {
         stroke-dashoffset: 0;
     }
 }
+
 
