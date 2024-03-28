@@ -38,11 +38,26 @@ img {
     margin-top: 250px;
 }
 
-.intro_container img {
-    height: 300px;
-    width: 300px;
-}
-
 .intro_container h1 {
     margin-left: 25px;
 }
+
+.intro_container svg {
+    height: 500px;
+    width: 500px;
+}
+
+.drawing {
+    stroke-dasharray: 500;
+    animation: 3s fillSvg linear;
+}
+
+@keyframes fillSvg {
+    0% {
+        stroke-dashoffset: 500;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
