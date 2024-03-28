@@ -1,4 +1,48 @@
 
-* {
+/* Resetting the box model */
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+/* Constant properties */
+:root {
+    --bg-paper-texture: url(/images/paper-texture.png);
+    --main-text-color: black;
+}
+
+/* Body styles */
+body {
+    height: 100%;
+    background-image: var(--bg-paper-texture);
+    color: var(--main-text-color);
+}
+
+/* Removes underlines on link elements */
+a:link {
+    text-decoration: none;
+}
+
+/* Display images as blocks */
+img {
+    display: block;
+}
+
+.intro_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.intro_container img {
+    height: 300px;
+    width: 300px;
+}
+
+.intro_container h1 {
+    margin-left: 25px;
 }
