@@ -11,7 +11,12 @@
 /* Constant properties */
 :root {
     --paper-texture: url(images/paper-texture.png);
-    --main-text-color: black;
+    --main-text-color: rgba(0, 0, 0, 0.75);
+}
+
+@font-face {
+    font-family: writingFont;
+    src: url(fonts/LovelexieHandwritten.ttf);
 }
 
 /* Body styles */
@@ -21,6 +26,7 @@ body {
     background: var(--paper-texture);
     color: var(--main-text-color);
     overflow-x: hidden;
+    font-family: writingFont, Arial, sans-serif;
 }
 
 /* Notebook Paper Styles */
@@ -60,6 +66,24 @@ header ul{
     list-style: none;
 }
 
+header p {
+    font-size: xx-large;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typeHeader 2s linear forwards 4s;
+    position: absolute;
+}
+
+@keyframes typeHeader{
+    from {
+        width: 0;;
+    }
+    100% {
+        width: 150px;;
+    }
+}
+
 header::before {
     content:'';
     display:block;
@@ -84,20 +108,42 @@ img {
 
 /* Styles for intro container for intro elements */
 .intro_container {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
 }
 
-.intro_container h1 {
-    margin-left: 25px;
+.intro_container svg {
+    position: absolute;
+    left: 300px
 }
+
+.intro_container p {
+    position: absolute;
+    left: 850px;
+    top: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typeIntro 25s linear forwards 4s;
+}
+
+@keyframes typeIntro{
+    from {
+        width: 0;;
+    }
+    100% {
+        width: 5000px;;
+    }
+}
+
 
 @keyframes drawStroke {
     to {
         stroke-dashoffset: 0;
     }
 }
+
 
 
 
