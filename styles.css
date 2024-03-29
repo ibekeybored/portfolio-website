@@ -20,13 +20,14 @@ body {
     padding: 0;
     background: var(--paper-texture);
     color: var(--main-text-color);
+    overflow-x: hidden;
 }
 
 /* Notebook Paper Styles */
 #notebook-paper {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 29px, #00b0d7 1px);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 29px, #00b0d7 1px);
     background-size: 100% 30px;
     position: relative;
 }
@@ -45,18 +46,18 @@ body {
 header {
     height: 125px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.7);
     top: 0;
     left: 0;
     position: relative;
     z-index: 2;
 }
 
-header h1{
-    font-size: 60px;
-    line-height: 30px;
-    padding-left: 175px;
-    padding-top: 120px;
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    list-style: none;
 }
 
 header::before {
