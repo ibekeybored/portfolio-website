@@ -10,13 +10,13 @@
 
 /* Constant properties */
 :root {
-    --paper-texture: url(images/paper-texture.png);
+    --paper-texture: url("images/paper-texture.png");
     --main-text-color: rgba(0, 0, 0, 0.75);
 }
 
 @font-face {
     font-family: writingFont;
-    src: url(fonts/LovelexieHandwritten.ttf);
+    src: url("fonts/LovelexieHandwritten.ttf");
 }
 
 /* Body styles */
