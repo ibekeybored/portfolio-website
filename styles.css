@@ -35,7 +35,8 @@ body {
     height: 100vh;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 29px, #00b0d7 1px);
     background-size: 100% 30px;
-    position: relative;
+    top: 125px;
+    position: absolute;
 }
 
 #notebook-paper::before {
@@ -55,7 +56,7 @@ header {
     background: rgba(255, 255, 255, 0.7);
     top: 0;
     left: 0;
-    position: relative;
+    position: absolute;
     z-index: 2;
 }
 
