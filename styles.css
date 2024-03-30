@@ -139,19 +139,55 @@ img {
     overflow: hidden;
     white-space: nowrap;
     width: 0;
-    animation: typeIntro 20s linear forwards 4s;
+    animation: typeIntro 10s linear forwards 4s;
 }
 
 .intro_container svg{
     margin-top: 100px;
 }
 
+.email_container h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typeIntro 10s linear forwards;
+}
+
+.email_container label {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 1s;
+}
+
+.email_container textarea {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 1s;
+}
+
+.email_container button {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 1s;
+    font-family: writingFont, Arial, sans-serif;
+    font-size: xxx-large;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px; padding: 10px;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 @keyframes typeIntro{
     from {
-        width: 0;;
+        width: 0;
     }
     100% {
-        width: 5000px;;
+        width: 5000px;
     }
 }
 
