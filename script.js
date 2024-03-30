@@ -38,10 +38,10 @@ homeLink.addEventListener('click', function(event) {
         "                            Hello and welcome to my website!\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 7s\">\n" +
-        "                            I'm Robert, a passionate artist\n" +
+        "                            I'm Robert, a dedicated artist\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 9.5s\">\n" +
-        "                            with an insatiable urge to share\n" +
+        "                            with an compelling drive to share\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 12.5s\">\n" +
         "                            my creativity with the world.\n" +
@@ -50,7 +50,7 @@ homeLink.addEventListener('click', function(event) {
         "                            Embark on a visual voyage through\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 18s\">\n" +
-        "                            my portfolio and welcome to my world\n" +
+        "                            my portfolio and step into my world\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 21s\">\n" +
         "                            of boundless creativity!\n" +
@@ -82,19 +82,19 @@ emailLink.addEventListener('click', function(event) {
         "                <label for=\"name\">Name:</label>\n" +
         "                <input type=\"text\" id=\"name\" name=\"name\" required" +
         "                   style=\" line-height: 30px; font-family: writingFont, Arial, sans-serif;" +
-        "                     font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75);\">\n" +
+        "                     font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75); width: 500px;\">\n" +
         "            </div>\n" +
         "            <div class=\"form-group\">\n" +
         "                <label for=\"email\">Email:</label>\n" +
         "                <input type=\"email\" id=\"email\" name=\"email\" required" +
         "                   style=\" line-height: 30px; font-family: writingFont, Arial, sans-serif;" +
-        "                   font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75);\">\n" +
+        "                   font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75); width: 500px;\">\n" +
         "            </div>\n" +
         "            <div class=\"form-group\">\n" +
         "                <label for=\"subject\">Subject:</label>\n" +
         "                <input type=\"text\" id=\"subject\" name=\"subject\" required" +
         "                   style=\" line-height: 30px; font-family: writingFont, Arial, sans-serif;" +
-        "                   font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75);\">\n" +
+        "                   font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75); width: 500px;\">\n" +
         "            </div>\n" +
         "            <div class=\"form-group\">\n" +
         "                <label for=\"message\">Message:</label>\n" +
