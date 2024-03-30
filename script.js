@@ -41,7 +41,7 @@ homeLink.addEventListener('click', function(event) {
         "                            I'm Robert, a dedicated artist\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 9.5s\">\n" +
-        "                            with an compelling drive to share\n" +
+        "                            with a compelling drive to share\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 12.5s\">\n" +
         "                            my creativity with the world.\n" +
@@ -50,7 +50,7 @@ homeLink.addEventListener('click', function(event) {
         "                            Embark on a visual voyage through\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 18s\">\n" +
-        "                            my portfolio and step into my world\n" +
+        "                            my portfolio and step into a world\n" +
         "                        </p>\n" +
         "                        <p style=\"animation-delay: 21s\">\n" +
         "                            of boundless creativity!\n" +
