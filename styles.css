@@ -142,6 +142,10 @@ img {
     animation: typeIntro 20s linear forwards 4s;
 }
 
+.intro_container svg{
+    margin-top: 100px;
+}
+
 @keyframes typeIntro{
     from {
         width: 0;;
@@ -155,6 +159,24 @@ img {
 @keyframes drawStroke {
     to {
         stroke-dashoffset: 0;
+    }
+}
+
+@keyframes drawSkin {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: #FEE5B4; /* Change to desired skin color */
+    }
+}
+
+@keyframes drawHair {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: #2E2F37; /* Change to desired hair color */
     }
 }
 
