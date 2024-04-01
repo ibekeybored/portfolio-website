@@ -354,8 +354,10 @@ footer {
 
     /* Styles for intro container svg elements */
     .intro_container svg {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     /* Styles for intro-text container */
@@ -399,7 +401,7 @@ footer {
 
     /* Styles for footer */
     footer {
-        top: 675px;
+        top: 625px;
     }
 
     /* Styles for footer text container div */
