@@ -96,3 +96,18 @@ emailLink.addEventListener('click', function(event) {
         "        </form>\n" +
         "    </div>";
 });
+
+const worksSvg = document.getElementById('works_svg');
+const rainbowAnimation = document.getElementById('rainbowAnimation');
+
+worksSvg.addEventListener('mouseenter', function() {
+    rainbowAnimation.setAttribute('values', 'red;orange;yellow;green;blue;purple;red');
+    rainbowAnimation.setAttribute('dur', '5s');
+    rainbowAnimation.setAttribute('repeatCount', 'indefinite');
+    rainbowAnimation.beginElement()
+});
+
+worksSvg.addEventListener('mouseleave', function() {
+    rainbowAnimation.endElement();
+    worksSvg.setAttribute('fill', 'rgba(0,0,0,0)'); // Reset to initial color
+});

@@ -139,7 +139,6 @@ header {
 
 #works_svg:hover {
     transform: scale(1.2);
-    fill: #794BFF;
 }
 
 #email_svg {
@@ -221,7 +220,7 @@ header {
 .email_container {
     margin-left: 200px;
     margin-top: 50px;
-    width: 800px;
+    width: 50%;
 }
 
 /* Styles for email container h1 element */
@@ -230,7 +229,7 @@ header {
     white-space: nowrap;
     width: 0;
     color: var(--text-color);
-    animation: type 3s linear forwards;
+    animation: type 1.5s linear forwards;
 }
 
 /* Styles for email container label elements */
@@ -322,6 +321,7 @@ footer {
     /* Body styles */
     body {
         font-size: medium;
+        overflow-y: visible;
     }
 
     /* Styles to achieve notebook paper look */
@@ -391,7 +391,7 @@ footer {
 
     /* Styles for email container h1 element */
     .email_container {
-        width: 300px;
+        width: 80%;
     }
 
     /* Styles for email container */
@@ -408,13 +408,13 @@ footer {
     .email_container input {
         line-height: 20px;
         font-size: large;
-        width: 300px;
+        width: 100%;
     }
 
     /* Styles for email container textarea element */
     .email_container textarea {
         font-size: large;
-        width: 300px;
+        width: 100%;
     }
 
     /* Styles for email container button element */
