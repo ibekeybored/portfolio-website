@@ -94,7 +94,7 @@ header {
     overflow: hidden;
     white-space: nowrap;
     width: 0;
-    animation: type 25s linear forwards 4s;
+    animation: type 10s linear forwards 4s;
     position: absolute;
 }
 
@@ -342,12 +342,13 @@ footer {
 
     /* Styles for navbar elements */
     .navbar-element {
-        padding: 15px 15px 15px 0;
+        margin-top: 20px;
+        padding: 0 25px 25px 0;
     }
 
     /* Styles for intro container */
     .intro_container {
-        margin-left: 40px;
+        margin-left: 30px;
         margin-top: 40px;
         flex-direction: column;
     }
@@ -357,7 +358,6 @@ footer {
         width: 300px;
         height: 300px;
         margin-left: 50px;
-        margin-right: 50px;
     }
 
     /* Styles for intro-text container */
@@ -401,7 +401,7 @@ footer {
 
     /* Styles for footer */
     footer {
-        top: 625px;
+        top: 660px;
     }
 
     /* Styles for footer text container div */
