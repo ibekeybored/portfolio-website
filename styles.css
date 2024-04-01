@@ -348,7 +348,7 @@ footer {
     /* Styles for intro container */
     .intro_container {
         margin-left: 40px;
-        margin-top: 75px;
+        margin-top: 40px;
         flex-direction: column;
     }
 
@@ -360,8 +360,8 @@ footer {
 
     /* Styles for intro-text container */
     .intro-text {
-        margin-top: 25px;
-        font-size: x-large;
+        margin-top: 15px;
+        font-size: 20px;
     }
 
     /* Styles for email container h1 element */
@@ -399,7 +399,13 @@ footer {
 
     /* Styles for footer */
     footer {
-        top: 730px;
+        top: 675px;
+    }
+
+    /* Styles for footer text container div */
+    .footer-text-container {
+        margin-left: 75px;
+        margin-right: 75px;
     }
 
 }
