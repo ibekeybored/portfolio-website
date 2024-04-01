@@ -9,12 +9,11 @@ const emailLink = document.getElementById('email_link');
 
 mainContent = document.getElementById("mainContent");
 
-// Add event listeners to the header links
 homeLink.addEventListener('click', function(event) {
     event.preventDefault();
     // Replace main content with new content
     mainContent.innerHTML = "<div class=\"intro_container\">\n" +
-        "                    <svg width=\"500\" height=\"500\" viewBox=\"0 0 343 390\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n" +
+        "                    <svg viewBox=\"0 0 343 390\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n" +
         "                        <!-- Hair Color -->\n" +
         "                        <path style=\"stroke-dasharray: 1166; stroke-dashoffset: 1166; animation: drawHair 1s forwards 3.5s;\" d=\"M9 160L17 193.5L25.5 190.5L37.5 193.5L49.5 198L59.5 204L66.5 212L72.5 214.5L80.5 212L83 209V204L86.5 193.5L83 178.5L80.5 169L83 156.5L86.5 147.5L96 143.5L138.5 133.5V129.5V124H152H195V120L186.5 116H191L210.5 113V106.5H216H247.5L250.5 104L236 95.5H264L244.5 86.5H287.5L267 79L269.5 76.5H275.5L331.5 73L326.5 69L279.5 56L326.5 53.5L306 46.5L275.5 33.5L306 36.5L301.5 30L269.5 19L216 6.5L163 9L107 19L54 43L17 69L4.5 120L9 160Z\" stroke=\"black\"/>\n" +
         "                        <!-- Skin Color -->\n" +
@@ -30,29 +29,30 @@ homeLink.addEventListener('click', function(event) {
         "                        <!--  Right Eye -->\n" +
         "                        <path style=\"stroke-dasharray: 1; stroke-dashoffset: 1; animation: drawStroke 10s forwards;\" d=\"M296 165.5C296.029 165.73 296.081 165.666 296.25 165.75\" stroke=\"black\" stroke-width=\"25\" stroke-linecap=\"round\"/>\n" +
         "                    </svg>\n" +
-        "                    <div id=\"intro-text\">\n" +
+        "                    <div class=\"intro-text\">\n" +
         "                        <p>\n" +
         "                            Hello and welcome to my website!\n" +
         "                        </p>\n" +
-        "                        <p style=\"animation-delay: 5.25s\">\n" +
+        "                        <p style=\"animation-delay: 5.75s\">\n" +
         "                            I'm Robert, a dedicated artist\n" +
         "                        </p>\n" +
-        "                        <p style=\"animation-delay: 6.5s\">\n" +
+        "                        <p style=\"animation-delay: 7.25s\">\n" +
         "                            with a compelling drive to share\n" +
         "                        </p>\n" +
-        "                        <p style=\"animation-delay: 7.75s\">\n" +
+        "                        <p style=\"animation-delay: 8.75s\">\n" +
         "                            my creativity with the world!\n" +
         "                        </p>\n" +
-        "                        <p style=\"animation-delay: 9s\">\n" +
+        "                        <p style=\"animation-delay: 10.25s\">\n" +
         "                            Embark on a visual voyage through\n" +
         "                        </p>\n" +
-        "                        <p style=\"animation-delay: 10.25s\">\n" +
+        "                        <p style=\"animation-delay: 11.75s\">\n" +
         "                            my portfolio and step into a world\n" +
         "                        </p>\n" +
-        "                        <p style=\"animation-delay: 11.5s\">\n" +
+        "                        <p style=\"animation-delay: 13.25s\">\n" +
         "                            of boundless creativity!\n" +
         "                        </p>\n" +
-        "                    </div>"
+        "                    </div>\n" +
+        "                </div>"
 });
 
 aboutLink.addEventListener('click', function(event) {
@@ -77,28 +77,19 @@ emailLink.addEventListener('click', function(event) {
         "           <input type=\"hidden\" name=\"access_key\" value=\"4844a5c8-d226-4d68-b1ae-555d14c10986\">\n" +
         "            <div class=\"form-group\">\n" +
         "                <label for=\"name\">Name: </label>\n" +
-        "                <input type=\"text\" id=\"name\" name=\"name\" required" +
-        "                   style=\" line-height: 30px; font-family: writingFont, Arial, sans-serif;" +
-        "                     font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75); width: 500px;\">\n" +
+        "                <input type=\"text\" id=\"name\" name=\"name\" required>\n" +
         "            </div>\n" +
         "            <div class=\"form-group\">\n" +
         "                <label for=\"email\">Email:</label>\n" +
-        "                <input type=\"email\" id=\"email\" name=\"email\" required" +
-        "                   style=\" line-height: 30px; font-family: writingFont, Arial, sans-serif;" +
-        "                   font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75); width: 500px;\">\n" +
+        "                <input type=\"email\" id=\"email\" name=\"email\" required>\n" +
         "            </div>\n" +
         "            <div class=\"form-group\">\n" +
         "                <label for=\"subject\">Subject:</label>\n" +
-        "                <input type=\"text\" id=\"subject\" name=\"subject\" required" +
-        "                   style=\" line-height: 30px; font-family: writingFont, Arial, sans-serif;" +
-        "                   font-size: xx-large; background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75); width: 500px;\">\n" +
+        "                <input type=\"text\" id=\"subject\" name=\"subject\" required>\n" +
         "            </div>\n" +
         "            <div class=\"form-group\">\n" +
         "                <label for=\"message\">Message:</label>\n" +
-        "                <textarea id=\"message\" name=\"message\" rows=\"12\" required style=\" " +
-        "                   font-family: writingFont, Arial, sans-serif; font-size: x-large;" +
-        "               background-color: rgba(0,0,0,0); color: rgba(0,0,0,0.75); border: 5px solid rgba(0,0,0,0.3);" +
-        "               width: 800px;\"></textarea>\n" +
+        "                <textarea id=\"message\" name=\"message\" rows=\"12\" required></textarea>\n" +
         "            </div>\n" +
         "            <button " +
         "           \" type=\"submit\">Send</button>\n" +
