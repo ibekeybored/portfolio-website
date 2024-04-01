@@ -58,13 +58,13 @@ homeLink.addEventListener('click', function(event) {
 aboutLink.addEventListener('click', function(event) {
     event.preventDefault();
     // Replace main content with new content
-    mainContent.innerHTML = "<p style='margin-left: 300px; margin-top: 300px;'>About Content</p>";
+    mainContent.innerHTML = "<div class='about_container'><p>About Content</p></div>";
 });
 
 worksLink.addEventListener('click', function(event) {
     event.preventDefault();
     // Replace main content with new content
-    mainContent.innerHTML = "<p style='margin-left: 300px; margin-top: 300px;'>Works Content</p>";
+    mainContent.innerHTML = "<div class='works_container'><p>Works Content</p></div>";
 });
 
 emailLink.addEventListener('click', function(event) {

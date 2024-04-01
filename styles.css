@@ -25,9 +25,8 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
     background: var(--paper-texture);
+    overflow: hidden;
     color: var(--text-color);
     font-family: writingFont, Arial, sans-serif;
     font-size: xx-large;
@@ -152,6 +151,10 @@ header {
     fill: #79CDFE;
 }
 
+#mainContent {
+    position: relative;
+}
+
 /* Styles for intro container */
 .intro_container {
     margin-left: 200px;
@@ -202,7 +205,19 @@ header {
     }
 }
 
-/* Styles for email container h1 element */
+/* Styles for about container */
+.about_container {
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+/* Styles for works container */
+.works_container {
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+/* Styles for email container */
 .email_container {
     margin-left: 200px;
     margin-top: 50px;
@@ -214,6 +229,7 @@ header {
     overflow: hidden;
     white-space: nowrap;
     width: 0;
+    color: var(--text-color);
     animation: type 3s linear forwards;
 }
 
@@ -222,6 +238,7 @@ header {
     opacity: 0;
     margin-bottom: 5px;
     font-size: xx-large;
+    color: rgba(0,0,0,0.75);
     animation: fadeIn 2s ease forwards 1s;
 }
 
@@ -304,12 +321,6 @@ footer {
 
     /* Body styles */
     body {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        background: var(--paper-texture);
-        color: var(--text-color);
-        font-family: writingFont, Arial, sans-serif;
         font-size: medium;
     }
 
@@ -366,9 +377,21 @@ footer {
         font-size: 20px;
     }
 
+    /* Styles for about container */
+    .about_container {
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+
+    /* Styles for works container */
+    .works_container {
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+
     /* Styles for email container h1 element */
     .email_container {
-        width: 400px;
+        width: 300px;
     }
 
     /* Styles for email container */
@@ -385,13 +408,13 @@ footer {
     .email_container input {
         line-height: 20px;
         font-size: large;
-        width: 350px;
+        width: 300px;
     }
 
     /* Styles for email container textarea element */
     .email_container textarea {
         font-size: large;
-        width: 350px;
+        width: 300px;
     }
 
     /* Styles for email container button element */
