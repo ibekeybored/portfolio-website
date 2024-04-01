@@ -89,7 +89,7 @@ emailLink.addEventListener('click', function(event) {
         "            </div>\n" +
         "            <div class=\"form-group\">\n" +
         "                <label for=\"message\">Message:</label>\n" +
-        "                <textarea id=\"message\" name=\"message\" rows=\"12\" required></textarea>\n" +
+        "                <textarea id=\"message\" name=\"message\" rows=\"10\" required></textarea>\n" +
         "            </div>\n" +
         "            <button " +
         "           \" type=\"submit\">Send</button>\n" +
