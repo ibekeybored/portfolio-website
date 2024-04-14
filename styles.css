@@ -10,7 +10,7 @@
 
 /* Constant properties */
 :root {
-    --paper-texture: url("images/paper-texture.png");
+    --paper-texture: url("images/paper-texture.jpg");
     --text-color: rgba(0, 0, 0, 0.75);
 }
 
