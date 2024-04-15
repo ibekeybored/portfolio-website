@@ -19,7 +19,7 @@ body {
     background: url("images/notebook-paper-desktop.jpg") no-repeat;
     color: rgba(0,0,0,0.75);
     font-family: writingFont, Arial, sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 /* Removes all underlines from anchor elements */
@@ -36,7 +36,7 @@ a {
 /* Header styles */
 header {
     margin-left: 150px;
-    margin-top: 105px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -82,8 +82,16 @@ footer {
 
 /* Styles for tablets */
 @media only screen and (max-width: 800px) {
+    body {
+        font-size: x-large;
+    }
+
     #wrapper {
         height: 75vh;
+    }
+
+    header {
+        margin-top: 105px;
     }
 
     #footer-links img {
