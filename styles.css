@@ -20,6 +20,12 @@ body {
     color: rgba(0,0,0,0.75);
     font-family: writingFont, Arial, sans-serif;
     font-size: x-large;
+    overflow: hidden;
+}
+
+/* Removes all underlines from anchor elements */
+a {
+    text-decoration: none;
 }
 
 /* Header styles */
@@ -29,6 +35,22 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+/* Footer styles */
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer img element styles */
+footer img {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* Styles for mobile devices */
@@ -41,6 +63,10 @@ header {
     header {
         margin-left: 50px;
         margin-top: 110px;
+    }
+
+    footer {
+        margin-left: 0;
     }
 }
 
