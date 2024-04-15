@@ -29,7 +29,7 @@ a {
 
 /* Wrapper div styles */
 #wrapper {
-    height: 85vh;
+    height: 84vh;
     position: relative;
 }
 
@@ -46,15 +46,36 @@ header {
 footer {
     position: absolute;
     width: 100%;
-    bottom: 10px;
+    bottom: 5px;
+}
+
+/* Footer link styles */
+#footer-links{
     display: flex;
     justify-content: center;
 }
 
-/* Footer img element styles */
-footer img {
+#footer-links img {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+/* Footer text styles */
+#footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-text p {
+    width: 280px;
+    font-size: 18px;
+}
+
+#footer-text img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 /* Styles for mobile devices */
