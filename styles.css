@@ -20,12 +20,17 @@ body {
     color: rgba(0,0,0,0.75);
     font-family: writingFont, Arial, sans-serif;
     font-size: x-large;
-    overflow: hidden;
 }
 
 /* Removes all underlines from anchor elements */
 a {
     text-decoration: none;
+}
+
+/* Wrapper div styles */
+#wrapper {
+    height: 85vh;
+    position: relative;
 }
 
 /* Header styles */
@@ -41,8 +46,7 @@ header {
 footer {
     position: absolute;
     width: 100%;
-    bottom: 50px;
-    margin-left: 50px;
+    bottom: 10px;
     display: flex;
     justify-content: center;
 }
