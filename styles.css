@@ -93,5 +93,10 @@ footer {
     footer {
         margin-left: 15px;
     }
+    
+    #footer-text p {
+        width: 280px;
+        font-size: 15px;
+    }
 }
 
